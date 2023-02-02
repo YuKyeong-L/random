@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴 랜덤 추천</title> 
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <script src="/js/main.js" defer></script>
+</head>
+<body>
+    <div class="wrap">
+        <header id="header">
+            <div class="header__inner mw1100">
+                <div class="header__logo">
+                    <div class="logo">
+                        <a href="#">
+                            <h1>MENU</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="content">
+            <section class="result">
+                <div class="result__wrap mw1100">
+                    <p class="result__menu-name">??</p>
+                    <div class="result__img"></div>
+                    <div class="button-wrap">
+                        <button type="button" class="result__button btnAtype salmon" id="btn-reload">다시 추천받기</button>
+                    </div>
+                </div>
+            </section>
+            <section class="shop-list">
+                <div class="shop-list__wrap mw1100">
+                    <ul class="shop-list__ul">
+                        <li class="shop-list__li--head">
+                            <div class="shop-info">
+                                <p class="shop-info__name">식당명</p>
+                                <p class="shop-info__link">링크</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <div class="footer__inner mw1100">
+                <p class="footer__copyright">copyright&copy;happy.co.kr</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
