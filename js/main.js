@@ -1,7 +1,7 @@
 if (document.getElementById("btn-random")) {
   const btnRandom = document.getElementById("btn-random");
   btnRandom.addEventListener("click", function () {
-    window.location = "result.html";
+    window.location = "random/result.html";
   });
 }
 
