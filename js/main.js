@@ -102,3 +102,15 @@ if (document.getElementById("btn-reload")) {
 }
 
 //이전에 나왔던 결과는 다음에 나오지 않도록 처리하면 좋을 듯 함
+//setTimeout("함수()", 3000); 3초간 실행
+
+function loading() {
+  document.querySelector(".loading__img").innerHTML =
+    "<img src='./images/fading_circles.gif'>";
+  document.getElementById("loading").classList.add("on");
+  setTimeout("loadingClose()", 1000);
+}
+function loadingClose() {
+  document.getElementById("loading").classList.remove("on");
+}
+loading();
