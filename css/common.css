@@ -181,3 +181,30 @@ body{
 #loading .loading__img{
     max-width: 300px;
 }
+
+/* 반응형 */
+@media (max-width:500px) {
+    #content{
+        padding: 0 20px;
+    }
+    .header__logo{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .index-info__title{
+        font-size: 2.6rem;
+    }
+    .index-info__li{
+        font-size: 1.4rem;
+    }
+    .footer__copyright{
+        font-size: 1.2rem;
+    }
+
+    .shop-info>p{
+        font-size: 1.4rem;
+    }
+    .shop-list__li--head>.shop-info>p{
+        font-size: 1.6rem;
+    }
+}
