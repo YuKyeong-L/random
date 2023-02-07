@@ -8,22 +8,22 @@ if (document.getElementById("btn-random")) {
 function randomMenu() {
   //데이터
   var menuValue = [
-    { name: "백반", img: "../images/bakban.png" },
-    { name: "잔치국수", img: "../images/noodles-janchi.jpg" },
-    { name: "피자", img: "../images/pizza.jpg" },
-    { name: "햄버거", img: "../images/hamburger.jpg" },
-    { name: "짜장면", img: "../images/zzazangmyeon.jpg" },
-    { name: "칼국수", img: "../images/noodles-kal.jpg" },
-    { name: "떡볶이", img: "../images/tteokbokki.jpg" },
-    { name: "김밥", img: "../images/kimbab.jpg" },
-    { name: "돈까스", img: "../images/porkcutlet.jpg" },
-    { name: "부대찌개", img: "../images/budezzige.jpg" },
-    { name: "샐러드", img: "../images/salad.jpg" },
-    { name: "쌀국수", img: "../images/rice-noodles.jpg" },
-    { name: "초밥", img: "../images/sushi.jpg" },
-    { name: "샌드위치", img: "../images/sandwich.jpg" },
-    { name: "라면", img: "../images/ramyeon.jpg" },
-    { name: "제육", img: "../images/jeyukbokkeum.jpg" },
+    { name: "백반", img: "./images/bakban.png" },
+    { name: "잔치국수", img: "./images/noodles-janchi.jpg" },
+    { name: "피자", img: "./images/pizza.jpg" },
+    { name: "햄버거", img: "./images/hamburger.jpg" },
+    { name: "짜장면", img: "./images/zzazangmyeon.jpg" },
+    { name: "칼국수", img: "./images/noodles-kal.jpg" },
+    { name: "떡볶이", img: "./images/tteokbokki.jpg" },
+    { name: "김밥", img: "./images/kimbab.jpg" },
+    { name: "돈까스", img: "./images/porkcutlet.jpg" },
+    { name: "부대찌개", img: "./images/budezzige.jpg" },
+    { name: "샐러드", img: "./images/salad.jpg" },
+    { name: "쌀국수", img: "./images/rice-noodles.jpg" },
+    { name: "초밥", img: "./images/sushi.jpg" },
+    { name: "샌드위치", img: "./images/sandwich.jpg" },
+    { name: "라면", img: "./images/ramyeon.jpg" },
+    { name: "제육", img: "./images/jeyukbokkeum.jpg" },
   ];
 
   var shopList = [
